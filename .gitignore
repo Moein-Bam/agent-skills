@@ -1,0 +1,16 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+.claude/
+
+# Secrets — never commit; keep .env.example if one is added
+.env
+.env.*
+!.env.example
+
+# Node (only if tooling is added later)
+node_modules/
+npm-debug.log*
